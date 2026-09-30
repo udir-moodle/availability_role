@@ -1,0 +1,17 @@
+{
+  "name": "udir-moodle/availability_role",
+  "description": "Restriction by course role — Composer/Packagist mirror of the Moodle plugin availability_role, auto-updated from the Moodle plugins directory.",
+  "type": "moodle-availability",
+  "license": "GPL-3.0-or-later",
+  "homepage": "https://moodle.org/plugins/availability_role",
+  "require": {
+    "composer/installers": "~1.0 || ~2.0",
+    "moodle/moodle": "5.2.*"
+  },
+  "extra": {
+    "installer-name": "role",
+    "moodle-composer": {
+      "component": "availability_role"
+    }
+  }
+}
